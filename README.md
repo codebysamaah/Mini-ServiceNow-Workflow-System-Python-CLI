@@ -3,7 +3,7 @@ A simple command-line interface (CLI) workflow system simulating ServiceNow func
 
 ## **Features**
 
-### Users (Employees)
+### Employees
 - Login with username and password
 - Submit new requests
 - View and update their own requests
