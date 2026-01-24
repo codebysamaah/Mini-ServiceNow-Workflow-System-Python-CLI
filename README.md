@@ -22,10 +22,9 @@ A simple command-line interface (CLI) workflow system simulating ServiceNow func
 - Clear separation between user and manager operations
   
 ## **Classes**
-- **User**: Represents an employee; can create and manage their own requests
-- **Manager**: Represents a manager; can approve, reject, and manage all requests
-- **Request**: Represents a service request with fields for title, user, description, and status
-- **Workflow**: Contains main business logic and methods for request creation, approval, updating, and viewing
+- **User**: Represents a user (employee or manager) with a username and role. 
+- **Request**: Represents a service request with fields for id, title, description, created_by, status, and manager comments. Includes methods for employees and managers.
+- **Workflow**: Contains the main business logic and methods for request creation, approval, updating, viewing, and generating summary reports. Interfaces between users and the persistent JSON database.
 
 ## **Skills and Concepts Demonstrated**
 - Object-Oriented Programming (OOP)
