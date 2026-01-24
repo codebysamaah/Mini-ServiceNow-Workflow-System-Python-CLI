@@ -12,8 +12,7 @@ A simple command-line interface (CLI) workflow system simulating ServiceNow func
 ### Managers
 - Login with username and password
 - View all employee requests
-- Approve or reject requests
-- Add comments to requests
+- Approve, reject, or add comments to requests
 - Generate summary reports
 
 ## **CLI Navigation**
