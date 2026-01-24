@@ -32,16 +32,26 @@ A simple command-line interface (CLI) workflow system simulating ServiceNow func
 - Role-based access control (RBAC)
 - CRUD operations
 - CLI interface development
+- Persistent storage management
 - Modular Python design and software architecture
+
+## **Next Steps**
+- Migrate CLI to Web Interface
+- Add real time updates (created / updated / approved)
+- Implement hashed passwords and session management
+
+## **How to Run**
+python3 main.py
 
 ## **Folder Structure**
 ```
 mini-servicenow-cli/
 │
-├── main.py      # Entry point and CLI navigation
-├── models.py    # Classes: User, Manager, Request
-├── workflow.py  # Workflow logic (CRUD, approvals, status updates)
-├── data.json    # simple persistence for users/requests
-└── README.md    # This file
+├── main.py          # Entry point and CLI navigation
+├── models.py        # Classes: User, Request
+├── workflow.py      # Workflow logic (CRUD, approvals, status updates)
+├── database.json    # Simple persistent storage for users/requests
+├── auth.py          # Authentication logic for all users 
+└── README.md        # This file
 ```
 
