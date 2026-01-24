@@ -42,6 +42,7 @@ A simple command-line interface (CLI) workflow system simulating ServiceNow func
 ## **How to Run**
 ```bash
 python3 main.py
+```
 
 ## **Folder Structure**
 ```
