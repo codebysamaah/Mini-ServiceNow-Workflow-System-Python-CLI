@@ -1,0 +1,38 @@
+{
+    "users": {
+        "employees": {
+            "alice": "1234",
+            "bob": "abcd"
+        },
+        "managers": {
+            "mark": "12ab",
+            "ying": "@hello"
+        }
+    },
+    "requests": [
+        {
+            "id": 1,
+            "title": "code clean up",
+            "description": "clean up the code on lines 100-140",
+            "created_by": "alice",
+            "status": "Pending",
+            "manager_comment": ""
+        },
+        {
+            "id": 2,
+            "title": "make the code concise",
+            "description": "can you make the code more concise",
+            "created_by": "alice",
+            "status": "Approved",
+            "manager_comment": "done"
+        },
+        {
+            "id": 3,
+            "title": "fix docstrings",
+            "description": "make the docstrings more descriptive",
+            "created_by": "alice",
+            "status": "Pending",
+            "manager_comment": ""
+        }
+    ]
+}
