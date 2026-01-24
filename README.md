@@ -40,6 +40,7 @@ A simple command-line interface (CLI) workflow system simulating ServiceNow func
 - Implement hashed passwords and session management
 
 ## **How to Run**
+```bash
 python3 main.py
 
 ## **Folder Structure**
